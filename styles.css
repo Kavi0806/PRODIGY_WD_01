@@ -1,0 +1,60 @@
+/* Basic styles for the navigation */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    background-color: #f11080;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#navbar ul li {
+    margin: 0 10px;
+}
+
+#navbar ul li a {
+    color: #10b3e9;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+#navbar ul li a:hover {
+    color: #12d50c;
+}
+
+/* Scroll effect for header */
+.scrolled {
+    background-color: #ec0707;
+}
+
+/* Styles for content sections */
+#content {
+    padding-top: 60px; /* Adjust according to header height */
+    height: 1000px; /* Example content height */
+}
+
+section {
+    padding: 50px;
+    background-color: #32054f;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
